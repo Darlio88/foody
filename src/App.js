@@ -1,24 +1,21 @@
-import logo from './logo.svg';
-import './App.css';
+import { BiBasket } from "react-icons/bi";
+import {colors} from './assets/colors'
+
+
+//components
+import NavBar from "./components/NavBar";
+import Intro from "./components/Intro";
+import Items from './components/Items'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+   <div 
+   style={{width:'100vw', height:"100%", backgroundColor:colors.grayLight, flex:1}}
+   className="px-5 md:px-14 pt-4 md:space-y-8">
+<NavBar />
+<Intro />
+<Items />
+   </div>
   );
 }
 
