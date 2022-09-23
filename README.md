@@ -1,6 +1,8 @@
 ### restaurant app React template 
 this is a website design for a restaurant that mainly sells pizza
 
+[live preview](https://foody-challenge.vercel.app/)
+
 ## screenshots
 ![screenshot](https://ik.imagekit.io/x761p7oyp/foody/Screenshot__222__isnVQaacp.png?ik-sdk-version=javascript-1.4.3&updatedAt=1663920946701)
 
